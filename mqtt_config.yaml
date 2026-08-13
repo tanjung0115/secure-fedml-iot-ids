@@ -1,0 +1,15 @@
+BROKER_HOST: 'localhost'
+BROKER_PORT: 1883       # Ganti ke 8883 jika broker dikonfigurasi dengan TLS
+MQTT_KEEPALIVE: 60
+MQTT_USER: ''
+MQTT_PWD: ''
+MQTT_QOS: 1
+TOPIC_PREFIX: 'fedml'
+
+# [Fix 3] TLS Configuration
+# Untuk mengaktifkan TLS:
+#   1. Generate sertifikat: bash scripts/generate_certs.sh
+#   2. Konfigurasi broker Mosquitto dengan listener 8883 dan certfile
+#   3. Set USE_TLS: true dan BROKER_PORT: 8883 di bawah ini
+USE_TLS: false
+CA_CERT: './certs/ca.crt'

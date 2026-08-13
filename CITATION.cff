@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated research paper."
+title: "Secure Federated Learning for IoT Intrusion Detection"
+type: software
+authors:
+  - family-names: Tanjung
+    given-names: Mija Ulina
+year: 2026
+repository-code: "https://github.com/"
+license: MIT

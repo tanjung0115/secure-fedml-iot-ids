@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Secrets / credentials
+keys/
+keys_pqc/
+certs/
+*.pem
+*.key
+*.priv
+.env
+.env.*
+
+# Data and generated artifacts
+*.csv
+*.csv.gz
+*.zip
+*.pcap
+*.pth
+*.pt
+*.ckpt
+logs/
+results/
+metrics_history.json
+scaler_params.json
+label_map.json
+
+# Local / IDE
+.vscode/
+.idea/
+.claude/
+.DS_Store
+
+# Dashboard state
+dashboard_state.json
